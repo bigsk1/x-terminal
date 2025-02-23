@@ -4,6 +4,7 @@
 ## Description
 A terminal tool to manage X posts supporting tweets, threads, image uploads (e.g., Cloudflare Images), and deletions. Python 3.10+, Windows and Linux
 
+[xt](xt.png)
 
 Get X Dev account is free
 https://developer.x.com/
