@@ -1,8 +1,7 @@
 # X Terminal 
- 
 
-## Description
-A terminal tool to manage X posts supporting tweets, threads, image uploads (e.g., Cloudflare Images), and deletions. Python 3.10+, Windows and Linux
+
+A tool to manage X posts - tweet, reply, delete, image uploads (e.g., Cloudflare Images). Python 3.10+, Windows and Linux
 
 
 ![xt](xt.png)
@@ -196,3 +195,4 @@ python x.py delete 1893529363959947744
 ```sh
 python x.py version
 ```
+ [![Follow on X](https://img.shields.io/badge/follow-%40bigsk1_com-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/bigsk1_com)
