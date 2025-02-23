@@ -100,11 +100,20 @@ python x.py post "message" [options]
 # Simple post
 python x.py post "Hello cyberspace!"
 
-# With image
-python x.py post "Neon art" --image-url https://imagedelivery.net/.../public
+# With image only
+python x.py post "🖼️" -i https://imagedelivery.net/WfhVb8dSNAAvdXUdMfBuPQ/695bc126-614d-4571-908d-5a5173127100/public
 
-# Thread preview
+# Thread preview - dry run doesn't send
 python x.py post "This is a long message that will split into multiple parts..." --dry-run
+
+# Reply to post
+python x.py post "Hey World" --reply-to 1893572351994019980
+
+# Reply to post with message and image
+python x.py post "Hey World" --reply-to 1893572351994019980 -i https://imagedelivery.net/WfhVb8dSNAAvdXUdMfBuPQ/695bc126-614d-4571-908d-5a5173127100/public
+
+# Delete post
+python x.py delete 1893529363959947744
 ```
 
 ![xt2](xt2.png)
