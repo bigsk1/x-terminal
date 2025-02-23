@@ -107,6 +107,8 @@ python x.py post "Neon art" --image-url https://imagedelivery.net/.../public
 python x.py post "This is a long message that will split into multiple parts..." --dry-run
 ```
 
+![xt2](xt2.png)
+
 ---
 
 ### `delete`
