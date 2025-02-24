@@ -195,4 +195,8 @@ python x.py delete 1893529363959947744
 ```sh
 python x.py version
 ```
+
+![xt3](xt3.png)
+
+
  [![Follow on X](https://img.shields.io/badge/follow-%40bigsk1_com-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/bigsk1_com)
